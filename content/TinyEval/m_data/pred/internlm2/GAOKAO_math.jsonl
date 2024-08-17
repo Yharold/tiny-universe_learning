@@ -1,0 +1,10 @@
+{"pred": "C", "answers": "A", "all_classes": null, "length": null}
+{"pred": "B", "answers": "C", "all_classes": null, "length": null}
+{"pred": "C", "answers": "D", "all_classes": null, "length": null}
+{"pred": "B", "answers": "A", "all_classes": null, "length": null}
+{"pred": "B", "answers": "B", "all_classes": null, "length": null}
+{"pred": "由题意得，函数 f(x) = { -x^2 - 2ax - a, x < 0; e^x + ln(x + 1), x ≥ 0 }，在 R 上单调递增，则 f(x)在 x < 0 上单调递增，且 f(x)在 x ≥ 0 上单调递增， 即 -x^2 - 2ax - a ≥ e^x + ln(x + 1)， 令 g(x) = -x^2 - 2ax - a - e^x - ln(x + 1)， 则 g'(x) = -2x - 2a， 当 x < -1时，g'(x) < 0， 所以 g(x)在 (-∞, -1) 上单调递减， 当 x > -1时，g'(x) > 0， 所以 g(x)在 (-1, +∞) 上单调递增， 所以 g(x)在 x = -1 取得最小值， 即 g(-1) = -a - 1， 所以 -a - 1 ≥ e^(-1) - ln(1 + 1) = -1， 所以 a ≥ 1， 所以 a 取值的范围是 [1, +∞)，  故选 D.", "answers": "B", "all_classes": null, "length": null}
+{"pred": "首先，我们需要找到两个函数 y = sin x 和 y = 2 sin (3x - π/6) 的交点。\n\n对于 y = sin x，其图像是一个周期函数，周期为 2π。因此，我们可以将 y = sin x 的图像向上平移 π/6，以得到 y = sin (x + π/6)。\n\n对于 y = 2 sin (3x - π/6)，其图像是一个周期函数，周期为 π。因此，我们可以将 y = 2 sin (3x - π/6) 的图像向左平移 π/6，以得到 y = 2 sin (3x - π/6 + π/6) = 2 sin (3x)。\n\n现在，我们可以找到两个函数 y = sin x 和 y = 2 sin (3x - π/6) 的交点。由于 y = sin x 的图像是一个周期函数，其图像在 x = 0 处与 y = 2 sin (3x - π/6) 的图像相交。因此，交点个数为 2。\n\n所以，正确答案是：\n\n\\[$\\boxed{A}$\\]。", "answers": "C", "all_classes": null, "length": null}
+{"pred": "B", "answers": "B", "all_classes": null, "length": null}
+{"pred": "B", "answers": "BC", "all_classes": null, "length": null}
+{"pred": "首先，我们需要计算函数 f(x) = (x - 1)^2(x - 4) 的导数。\n\nf'(x) = 2(x - 1)(x - 4) + (x - 1)^2\n\n接下来，我们需要找到函数 f(x) 的极值点。极值点是指导数为0的点，即函数的临界点。\n\n对于选项A，我们需要找到 x = 3 的极值点。\n\n对于选项B，我们需要找到 0 < x < 1 时，f(x) 的极小值点。\n\n对于选项C，我们需要找到 1 < x < 2 时，-4 < f(2x - 1) < 0 的极值点。\n\n对于选项D，我们需要找到 -1 < x < 0 时，f(2 - x) > f(x) 的极值点。\n\n现在，我们使用Python和Sympy库来计算这些导数并找到极值点。\n```python\nfrom sympy import symbols, diff, solve, Rational\n\n# 定义变量\nx = symbols('x')\n\n# 定义函数\nf = (x - 1)**2 * (x - 4)\n\n# 计算导数\nf_prime = diff(f, x)\n\n# 找到极值点\ncritical_points = solve(f_prime, x)\n\n# 输出极值点\ncritical_points\n```\n", "answers": "ACD", "all_classes": null, "length": null}

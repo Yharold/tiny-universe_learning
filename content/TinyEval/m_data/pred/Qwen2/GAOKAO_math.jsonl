@@ -1,0 +1,10 @@
+{"pred": "D: {-1, 0, 2}", "answers": "A", "all_classes": null, "length": null}
+{"pred": "C: 1 - i\n\n解析如下：首先将给定的方程式简化，得 \\(\\frac{z}{z-1} = 1+i\\)。分母可以因式分解为 \\(z(z-1)=z^2-z\\)。两边同时乘以 \\(z\\) 得到 \\(z^3=z^2-z\\)，即 \\((z-1)(z^2+z)=(z^2-z)\\)，进一步化简得到 \\(z^3-z^2=0\\)。\n\n解这个一元二次方程得到 \\(z^2(1+1/z)=0\\)，因此有 \\(z^2=0\\) 或 \\(1+1/z=0\\)。因为 \\(1+1/z\\) 必须是正数（否则等号左边为0），我们得到 \\(z=-1\\)。\n\n所以答案是 \\(z = -1-i\\)。", "answers": "C", "all_classes": null, "length": null}
+{"pred": "D: 2", "answers": "D", "all_classes": null, "length": null}
+{"pred": "D: 3m", "answers": "A", "all_classes": null, "length": null}
+{"pred": "D: 9√3π", "answers": "B", "all_classes": null, "length": null}
+{"pred": "D: [0, +∞]。", "answers": "B", "all_classes": null, "length": null}
+{"pred": "D: 8", "answers": "C", "all_classes": null, "length": null}
+{"pred": "D: f(20) < 10000", "answers": "B", "all_classes": null, "length": null}
+{"pred": "C", "answers": "BC", "all_classes": null, "length": null}
+{"pred": "A", "answers": "ACD", "all_classes": null, "length": null}

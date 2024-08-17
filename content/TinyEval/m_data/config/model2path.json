@@ -1,0 +1,5 @@
+{
+    "internlm2": "internlm/internlm2-chat-1_8b",
+    "Qwen2": "Qwen/Qwen2-0.5B-Instruct",
+    "Qwen2_moe": "path2model"
+}
